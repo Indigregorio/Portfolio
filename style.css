@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+h3{
+    color: rgb(66, 27, 2);
+    text-align: start;
+    padding: 32px;    
+}
+.header-menu{
+    background-color: rgb(255, 160, 97);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 20px;
+}
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+.lista-menu li>a{
+    color: rgb(58, 23, 23);
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.principal{
+    display: flex;
+    background-color: rgb(102, 62, 25);
+    height: 100vh;
+}
+.subcontainer-principal{
+    display: flex;
+    color: rgb(247, 198, 152);
+    flex-direction: column;   
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify
+       
+}
+.titulo1{
+    display: flex;
+    color: rgb(247, 198, 152);
+    padding: 32px;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify  
+}
+    
+.div-img{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    border: 20px dashed rgb(214, 185, 178);
+}
+.texto-1{
+    padding: 32px;
+}
+.principal-2{
+    display: flex;
+    background-color: rgb(255, 208, 155);
+    height: 100vh;
+    width: 100%;
+}
+.subcontainer-principal2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subcontainer-principal2 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.lista-item{
+    padding: 32px;
+}
+.lista-item ul li{
+    margin-bottom: 52px;
+}
+.principal-3{
+    display: flex;
+    background-color: rgb(248, 217, 191);
+    height: 100vh;
+    width: 100%;
+}
+.div-zion{
+    display: flex;
+
+}
+.subcontainer-principal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.subcontainer-principal3 li>a{
+    font-size: 18px;
+    text-decoration: inherit;
+}
+.footer{
+    background-color: rgb(255, 160, 97);
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+.contato{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.lista-footer{
+    color: chocolate;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.estilo-icon{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.links{
+    color: bisque;
+    text-decoration: none;
+}
